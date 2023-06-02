@@ -1,4 +1,5 @@
-var dune = {
+"use strict";
+const dune = {
     title: "Dune",
     originalTitle: "Dune Part One",
     director: "Denis Villeneuve",
@@ -9,7 +10,7 @@ var dune = {
         grossWorldwide: 400671789,
     },
 };
-var cats = {
+const cats = {
     title: "Cats",
     director: "Tom Hooper",
     releaseYear: 2019,

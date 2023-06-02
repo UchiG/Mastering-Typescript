@@ -16,4 +16,11 @@ const norma: Chicken = {
     age: 2,
 }
 
+const juniper: Chicken = {
+    breed: "Orpington",
+    eggsPerWeek: 5,
+    name: "Juniper",
+    age: 1,
+}
+
 

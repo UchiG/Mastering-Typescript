@@ -6,3 +6,9 @@ const norma = {
     name: "Norma",
     age: 2,
 };
+const juniper = {
+    breed: "Orpington",
+    eggsPerWeek: 5,
+    name: "Juniper",
+    age: 1,
+};
