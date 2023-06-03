@@ -1,9 +1,9 @@
 const btn = document.getElementById("btn")! as HTMLButtonElement
-const input = document.getElementById("todoiput")! as HTMLInputElement
-const form = document.querySelector("form")! as HTMLFormElement
+const input = document.getElementById("todoinput")! as HTMLInputElement
+const form = document.querySelector("form")!
 const list = document.getElementById("todolist")! 
 
-function handleSubmit(e: SubmitEvent) {
+function handleSubmit(e: Event) {
     e.preventDefault();
     const newTodoText = input.value;
     const newLI = document.createElement("LI");
