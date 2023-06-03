@@ -1,2 +1,5 @@
-console.log("Hello World!")
-console.log('test')
+const btn = document.getElementById('btn')!
+
+btn.addEventListener('click', function() {
+    alert('clicked!!!')
+}) 
