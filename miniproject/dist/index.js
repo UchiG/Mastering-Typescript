@@ -51,8 +51,8 @@ function getFarmAnimalSound(animal) {
             return "Baa";
         default:
             // We should never make it here
-            const shouldNeverGetHere = animal;
-            return shouldNeverGetHere;
+            const _exhaustiveCheck = animal;
+            return _exhaustiveCheck;
     }
 }
 const stevie = {

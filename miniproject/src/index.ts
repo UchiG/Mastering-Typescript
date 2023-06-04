@@ -105,8 +105,8 @@ function merge<T extends object, U extends object>(object1: T, object2: U) {
         return "Baa" 
       default:
         // We should never make it here
-        const shouldNeverGetHere: never = animal
-        return shouldNeverGetHere
+        const _exhaustiveCheck: never = animal
+        return _exhaustiveCheck
     }
   }
   
