@@ -14,7 +14,7 @@
     "webpack-dev-server": "^4.15.0"
   },
   "scripts": {
-    "start": "lite-server",
+    "serve": "webpack serve",
     "build": "webpack"
   },
   "keywords": [],
