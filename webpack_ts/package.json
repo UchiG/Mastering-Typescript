@@ -15,7 +15,7 @@
   },
   "scripts": {
     "serve": "webpack serve",
-    "build": "webpack"
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
