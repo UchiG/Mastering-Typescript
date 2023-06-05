@@ -16,7 +16,7 @@
     "webpack-plugin": "^1.0.5"
   },
   "scripts": {
-    "serve": "webpack serve",
+    "serve": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
